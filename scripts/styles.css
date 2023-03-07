@@ -10,4 +10,10 @@ body {
     flex-wrap: wrap;
     text-align: center;
     font-size: large;
+    border: 10%;
+    border-style: dotted;
+}
+
+h1 {
+    color: yellow;
 }
