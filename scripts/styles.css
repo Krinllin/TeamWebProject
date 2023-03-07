@@ -1,0 +1,19 @@
+body {
+    font-size:large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aqua;
+}
+
+.navbar {
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: large;
+    border: 10%;
+    border-style: dotted;
+}
+
+h1 {
+    color: yellow;
+}
