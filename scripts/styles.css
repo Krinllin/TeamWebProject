@@ -10,13 +10,10 @@ body {
     position: relative;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: black;
     font-size: xx-large;
-    border-style: bold;
-    width: 97%;
-    height: 7%;
     text-align: left;
-    background: black;
-    padding: 5px 20px 10px 18px;
+    
 }
 
 h1 {
