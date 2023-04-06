@@ -37,3 +37,11 @@ h1 {
     width: 128px;
     height: 64px;
 }
+
+.right-allign {
+    text-align: right;
+}
+
+.center-allign {
+    text-align: center;
+}
