@@ -15,7 +15,24 @@ body {
     text-align: center;
 }
 
+
+
+h1 {
+    color:  black;
+}
+
+#logo {
+    width: 164px;
+    height: 72px;
+}
+
+#newsimage {
+    width: 128px;
+    height: 128px;
+}
+
 .textblock {
+    text-align: center;
     position: relative;
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,19 +46,32 @@ body {
     border-color: black;
 }
 
-h1 {
-    color:  black;
-}
-
-#logo {
-    width: 128px;
-    height: 64px;
-}
-
-.right-allign {
+.right-textblock {
     text-align: right;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 12%;
+    text-align: left;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: black;
+    font-style: inherit;
+    border-style: double;
+    border-color: black;
 }
 
-.center-allign {
-    text-align: center;
+.left-textblock {
+    text-align: left;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 12%;
+    text-align: left;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: black;
+    font-style: inherit;
+    border-style: double;
+    border-color: black;
 }
