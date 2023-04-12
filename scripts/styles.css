@@ -1,35 +1,41 @@
 body {
     font-size: 20px;
     font-family: monospace;
-    background-color: grey;
+    background-color: #242424;
     font-style: bold;
     color: #38a32a;
 }
 
+a {
+    color: #38a32a; 
+}
+
 .navbar {
+    border-style: inset;
     position: relative;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: black;
-    font-size: xx-large;
+    font-size: 250%;
     text-align: center;
+    z-index: 1;
+}
+
+.navbarlink
+{
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 
-
-h1 {
-    color:  black;
-}
-
-#image {
-    float: right;
-    width: 10%;
-    height: 10%;
+h1, h2, h3, h4, h5, h6 {
+    color:white;
 }
 
 #newsimage {
-    width: 128px;
-    height: 128px;
+    width: 25%;
+    height: 25%
+    fit-content;
 }
 
 .textblock {
@@ -75,4 +81,15 @@ h1 {
     font-style: inherit;
     border-style: double;
     border-color: black;
+}
+
+.rightbias
+{
+    float: right;
+}
+
+.leftbias
+{
+    margin-right: 50%;
+    float: left;
 }
