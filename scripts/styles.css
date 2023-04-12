@@ -1,7 +1,7 @@
 body {
     font-size: 20px;
     font-family: monospace;
-    background-color: darkgrey;
+    background-color: grey;
     font-style: bold;
     color: #38a32a;
 }
@@ -21,9 +21,10 @@ h1 {
     color:  black;
 }
 
-#logo {
-    width: 164px;
-    height: 72px;
+#image {
+    float: right;
+    width: 10%;
+    height: 10%;
 }
 
 #newsimage {
