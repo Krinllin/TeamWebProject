@@ -1,13 +1,9 @@
 body {
     font-size: 20px;
     font-family: monospace;
-    background-color: #242424;
+    background-image: url('WebsiteLogo.png');
     font-style: bold;
-    color: #38a32a;
-}
-
-a {
-    color: #38a32a; 
+    color: #0c7b59;
 }
 
 .navbar {
@@ -19,6 +15,7 @@ a {
     font-size: 250%;
     text-align: center;
     z-index: 1;
+    color: #0c7b59; 
 }
 
 .navbarlink
@@ -28,13 +25,17 @@ a {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
     color:white;
+}
+
+h2, a {
+    color: #0c7b59;
 }
 
 #newsimage {
     height: max-content;
-    max-width: fit-content;
+    width: 40%;
 }
 
 
@@ -54,42 +55,12 @@ h1, h2, h3, h4, h5, h6 {
     border-color: black;
 }
 
-.right-textblock {
-    text-align: right;
-    position: relative;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-size: 12%;
-    text-align: left;
-    font-size: inherit;
-    font-family: inherit;
-    background-color: black;
-    font-style: inherit;
-    border-style: double;
-    border-color: black;
-}
-
-.left-textblock {
-    text-align: left;
-    position: relative;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-size: 12%;
-    text-align: left;
-    font-size: inherit;
-    font-family: inherit;
-    background-color: black;
-    font-style: inherit;
-    border-style: double;
-    border-color: black;
-}
-
 .rightbias
 {
-    margin-left: 50%;
+    margin-left: 60%;
 }
 
 .leftbias
 {
-    margin-right: 50%;
+    margin-right: 60%;
 }
